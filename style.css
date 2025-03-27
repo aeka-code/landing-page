@@ -117,3 +117,11 @@ div.call-to-action div.container {
     border-radius: 15px;
     color: #f9faf8;
 }
+.copy-section {
+    background-color:#1f2937;
+    color: #f9faf8;
+    padding: 20px;
+}
+.copy-section .container {
+    text-align: center;
+}
