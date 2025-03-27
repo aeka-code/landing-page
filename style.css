@@ -48,7 +48,7 @@ body {
 }
 .main-text button {
     background-color: aqua;
-    padding: 8px;
+    padding: 8px 16px;
     border-radius: 8px;
     color:#3882f6;
 }
@@ -67,4 +67,26 @@ body {
     text-align: center;
     background-color: gray;
     color: white;
+}
+.main-page {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.main-page h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.main-page .squares-area {
+    display: flex;
+    gap: 32px;
+}
+.square {
+    text-align: center;
 }
